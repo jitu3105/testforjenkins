@@ -8,9 +8,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - fleetrf.dev
+        - jalajghuge.in
+      secretName: mysecret
   rules:
-    - host: fleetrf.dev
+    - host: jalajghuge.in
       http:
         paths:
           - path: /?(.*)
